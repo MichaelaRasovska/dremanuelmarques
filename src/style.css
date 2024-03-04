@@ -71,4 +71,20 @@ body {
 @media only screen and (max-width: 768px) {
 }
 @media only screen and (max-width: 600px) {
+  #app {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .text {
+    margin: 20px 0 0 0;
+  }
+  .img {
+    background-image: url(./img/emanuelSmall.jpeg);
+    min-height: 400px;
+  }
+  .title {
+    margin-top: -400px;
+    margin-bottom: 350px;
+  }
 }
