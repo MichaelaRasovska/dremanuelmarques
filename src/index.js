@@ -4,7 +4,7 @@ import './style.css';
 
 const title = document.createElement('div');
 title.classList.add('title');
-title.textContent = 'prof. Doutor Emanuel Marques';
+title.textContent = 'Prof. Doutor Emanuel Marques';
 
 const textpt = document.createElement('div');
 textpt.classList.add('textpt');
