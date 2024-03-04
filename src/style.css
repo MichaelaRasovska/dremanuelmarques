@@ -20,17 +20,17 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 900px;
+  height: 600px;
   margin-left: -10px;
   margin-top: -20px;
 }
 
 .img {
-  background-image: url(./img/unnamed.jpeg);
+  background-image: url(./img/emanuel.jpeg);
   background-repeat: no-repeat;
+  height: auto;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .text {
@@ -45,7 +45,7 @@ body {
 
 .title {
   font-style: bold;
-  font-size: 50px;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 
@@ -60,7 +60,10 @@ body {
 .textpt,
 .texten {
   margin-bottom: 30px;
-  font-size: 20px;
+  font-size: 15px;
   width: 80%;
   align-self: center;
+}
+
+@media screen {
 }
